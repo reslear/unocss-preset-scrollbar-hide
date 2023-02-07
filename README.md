@@ -14,7 +14,7 @@ same as [tailwind-scrollbar-hide](https://github.com/reslear/tailwind-scrollbar-
 ![Firefox >=64 Chrome >= 2 Safari >= 4 Internet Explorer >= 10 ](https://badges.herokuapp.com/browsers?googlechrome=2&firefox=64&safari=4&iexplore=10)
 -->
 
-![tailwind-scrollbar-hide animation demo](https://user-images.githubusercontent.com/12596485/142972957-272010d3-29f6-4be7-99e1-dd03e7a8b92b.gif)
+![unocss-preset-scrollbar-hide animation demo](https://user-images.githubusercontent.com/12596485/217338621-876e1a28-fd49-4135-b6bf-e2f45da49ca6.gif)
 
 [Live demo](https://reslear.github.io/packages/tailwind-scroll-hide/index.html)
 
@@ -56,13 +56,6 @@ Use in you template `scrollbar-hide` for visual hiding scrollbar
 
 ```html
 <div class="w-4 scrollbar-hide">...</div>
-```
-
-or restore default value use `scrollbar-default`
-> ⚠️ webkit overriding not working https://github.com/reslear/tailwind-scrollbar-hide/issues/19#issuecomment-1086949110 need switch breakpoint system
-
-```html
-<div class="w-4 scrollbar-hide md:scrollbar-default">...</div>
 ```
 
 ## License
