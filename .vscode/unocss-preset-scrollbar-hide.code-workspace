@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"name": "✨ unocss-preset-scrollbar-hide",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+		"unocss.root": [
+			"playground"
+		]
+	}
+}
