@@ -1,6 +1,6 @@
 import type { Preset } from 'unocss'
 
-export function presetScrollBarHide(): Preset {
+export function presetScrollbarHide(): Preset {
   return {
     name: 'unocss-preset-scrollbar-hide',
     rules: [

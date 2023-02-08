@@ -1,6 +1,6 @@
 {
   "name": "unocss-preset-scrollbar-hide",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Hide scrollbars, although the element can still be scrolled if the element's content overflows.",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
@@ -29,22 +29,31 @@
     "scrollbar",
     "hide"
   ],
-  "author": "reslear",
+  "author": "reslear <https://github.com/reslear>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/reslear/unocss-preset-scrollbar-hide/issues"
   },
   "homepage": "https://github.com/reslear/unocss-preset-scrollbar-hide#readme",
   "devDependencies": {
-    "@antfu/eslint-config": "^0.35.1",
-    "@types/node": "^18.11.19",
+    "@antfu/eslint-config": "^0.35.2",
+    "@types/node": "^18.13.0",
     "eslint": "^8.33.0",
-    "typescript": "^4.9.3",
+    "typescript": "^4.9.5",
     "unbuild": "^1.1.1",
     "unocss": "^0.49.4"
   },
   "peerDependencies": {
-    "unocss": "^0.49.4"
+    "unocss": "^0.40.0",
+    "@unocss/nuxt": "^0.40.0"
+  },
+  "peerDependenciesMeta": {
+    "unocss": {
+      "optional": true
+    },
+    "@unocss/nuxt": {
+      "optional": true
+    }
   },
   "publishConfig": {
     "access": "public"

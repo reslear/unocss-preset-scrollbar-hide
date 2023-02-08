@@ -1,18 +1,15 @@
 # unocss-preset-scrollbar-hide
-unocss preset for hide scrollbars, although the element can still be scrolled if the element's content overflows.
+UnoCSS preset for hide scrollbars, although the element can still be scrolled if the element's content overflows. Part of the [UnoCSS Community Presets](https://github.com/unocss/unocss#community-presets).
 
-same as [tailwind-scrollbar-hide](https://github.com/reslear/tailwind-scrollbar-hide)
+- same as [tailwind-scrollbar-hide](https://github.com/reslear/tailwind-scrollbar-hide)
 
-<!--
-[![npm](https://img.shields.io/npm/v/tailwind-scrollbar-hide)](https://www.npmjs.com/package/tailwind-scrollbar-hide)
-![npm](https://img.shields.io/npm/dt/tailwind-scrollbar-hide)
-![npm](https://img.shields.io/npm/dw/tailwind-scrollbar-hide)
-![Dependents (via libraries.io)](https://img.shields.io/librariesio/dependents/npm/tailwind-scrollbar-hide?0)
-[![install size](https://packagephobia.com/badge?p=tailwind-scrollbar-hide)](https://packagephobia.com/result?p=tailwind-scrollbar-hide)
-[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 
-![Firefox >=64 Chrome >= 2 Safari >= 4 Internet Explorer >= 10 ](https://badges.herokuapp.com/browsers?googlechrome=2&firefox=64&safari=4&iexplore=10)
--->
+[![npm](https://img.shields.io/npm/v/unocss-preset-scrollbar-hide)](https://www.npmjs.com/package/unocss-preset-scrollbar-hide)
+![npm](https://img.shields.io/npm/dt/unocss-preset-scrollbar-hide)
+![npm](https://img.shields.io/npm/dw/unocss-preset-scrollbar-hide)
+![Dependents (via libraries.io)](https://img.shields.io/librariesio/dependents/npm/unocss-preset-scrollbar-hide?0)
+[![install size](https://packagephobia.com/badge?p=unocss-preset-scrollbar-hide)](https://packagephobia.com/result?p=unocss-preset-scrollbar-hide)
+<!-- [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release) -->
 
 ![unocss-preset-scrollbar-hide animation demo](https://user-images.githubusercontent.com/12596485/217338621-876e1a28-fd49-4135-b6bf-e2f45da49ca6.gif)
 
@@ -39,7 +36,6 @@ Then add the plugin to your `tailwind.config.js` file:
 ```ts
 // unocss.config.ts
 import { presetScrollbarHide } from 'unocss-preset-scrollbar-hide'
-
 
 export default defineConfig({
   // ...
