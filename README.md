@@ -31,15 +31,17 @@ yarn add unocss-preset-scrollbar-hide
 pnpm add unocss-preset-scrollbar-hide
 ```
 
-Then add the plugin to your `tailwind.config.js` file:
+Then add the plugin to your config file:
 
 ```ts
 // unocss.config.ts
+import { presetUno } from 'unocss'
 import { presetScrollbarHide } from 'unocss-preset-scrollbar-hide'
 
 export default defineConfig({
   // ...
   presets: [
+    presetUno(),
     // ...
     presetScrollbarHide()
   ],
