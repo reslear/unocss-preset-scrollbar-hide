@@ -5,9 +5,9 @@ UnoCSS preset for hide scrollbars, although the element can still be scrolled if
 
 
 [![npm](https://img.shields.io/npm/v/unocss-preset-scrollbar-hide)](https://www.npmjs.com/package/unocss-preset-scrollbar-hide)
-![npm](https://img.shields.io/npm/dt/unocss-preset-scrollbar-hide)
-![npm](https://img.shields.io/npm/dw/unocss-preset-scrollbar-hide)
-![Dependents (via libraries.io)](https://img.shields.io/librariesio/dependents/npm/unocss-preset-scrollbar-hide?0)
+[![npm](https://img.shields.io/npm/dt/unocss-preset-scrollbar-hide)](https://www.npmjs.com/package/unocss-preset-scrollbar-hide)
+[![npm](https://img.shields.io/npm/dw/unocss-preset-scrollbar-hide)](https://www.npmjs.com/package/unocss-preset-scrollbar-hide)
+[![Dependents (via libraries.io)](https://img.shields.io/librariesio/dependents/npm/unocss-preset-scrollbar-hide?0)](https://www.npmjs.com/package/unocss-preset-scrollbar-hide)
 [![install size](https://packagephobia.com/badge?p=unocss-preset-scrollbar-hide)](https://packagephobia.com/result?p=unocss-preset-scrollbar-hide)
 <!-- [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release) -->
 
